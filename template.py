@@ -16,6 +16,7 @@ def part2(inp):
 
 def main():
     inp = open("input", "r").read().splitlines()
+    # inp = open("test", "r").read().splitlines()
 
     p1_result = part1(inp)
     print(f"Part 1: {p1_result}")
